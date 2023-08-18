@@ -1,5 +1,4 @@
-﻿// Program.cs
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -18,10 +17,10 @@ class Program
             Console.WriteLine("Available Users:");
             foreach (User user in users)
             {
-                Console.WriteLine($"User ID: {user.Id}, Username: {user.Username}");
+                Console.WriteLine($"User ID: {user.Id}, UserName: {user.Username}");
             }
 
-            Console.Write("Enter the User ID to view details: ");
+            Console.Write("Enter the User ID to view their post: ");
             if (int.TryParse(Console.ReadLine(), out int selectedUserId))
             {
                 User selectedUser = users.Find(user => user.Id == selectedUserId);
