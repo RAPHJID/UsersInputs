@@ -1,0 +1,17 @@
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.csproj.AssemblyReference.cache
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.GeneratedMSBuildEditorConfig.editorconfig
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.AssemblyInfoInputs.cache
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.AssemblyInfo.cs
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.csproj.CoreCompileInputs.cache
+/home/jidraf/Desktop/week3assessment/bin/Debug/net7.0/week3assessment
+/home/jidraf/Desktop/week3assessment/bin/Debug/net7.0/week3assessment.deps.json
+/home/jidraf/Desktop/week3assessment/bin/Debug/net7.0/week3assessment.runtimeconfig.json
+/home/jidraf/Desktop/week3assessment/bin/Debug/net7.0/week3assessment.dll
+/home/jidraf/Desktop/week3assessment/bin/Debug/net7.0/week3assessment.pdb
+/home/jidraf/Desktop/week3assessment/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.csproj.CopyComplete
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.dll
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/refint/week3assessment.dll
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.pdb
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/week3assessment.genruntimeconfig.cache
+/home/jidraf/Desktop/week3assessment/obj/Debug/net7.0/ref/week3assessment.dll
