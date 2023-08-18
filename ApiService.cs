@@ -50,5 +50,30 @@ class ApiService
             return null;
         }
     }
+
+    public async Task<List<Comment>> GetCommentsForPostAsync(string commentsApiUrl, int postId)
+    {
+        try
+        {
+            HttpResponseMessage commentsResponse = await _httpClient.GetAsync($"{commentsApiUrl}?postId={postId}");
+
+            if (commentsResponse.IsSuccessStatusCode)
+            {
+                string commentsResponseBody = await commentsResponse.Content.ReadAsStringAsync();
+                List<Comment> comments = JsonConvert.DeserializeObject<List<Comment>>(commentsResponseBody);
+                return comments;
+            }
+            else
+            {
+                Console.WriteLine($"Error: {commentsResponse.StatusCode} - {commentsResponse.ReasonPhrase}");
+                return null;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+            return null;
+        }
+    }
 }
 
